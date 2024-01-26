@@ -1,0 +1,29 @@
+<h3>Text Interpolation</h3>
+
+{{name}} - {{age}}
+
+<br>
+
+{{age >= 18 ? "Maior de Idade" : "Menor de Idade"}}
+
+<br>
+
+{{sum(7, 7)}}
+
+<hr/>
+
+<h3>Property Binding</h3>
+
+<button [disabled]="isDisabled">Button</button>
+
+<hr/>
+
+<h3>Atribute Binding</h3>
+
+<p [attr.title]="name" [attr.aria-label]="name">Leonardo</p>
+
+<hr/>
+
+<h3>Class and Style Binding</h3>
+
+<p [class.background-red]="age >= 18">{{name}}</p>
